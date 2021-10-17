@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #b5caff;
+    --cor1: #7a95e2;
+    --cor2: #000c65;
+    --cor3: #272e7f;
+    --cor4: #e8fdff;
+
+    --font-padrao:  Arial, Verdana, Helvetica, sans-serif; 
+    --font: Garamond, serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px; 
+}
+
+body{
+    
+}
+
+header {
+    background-color: var(--cor2);
+    height: 65px;
+    padding: 25px;
+}
+
+header > img {
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.557);
+}
+
+main {
+    background-color: var(--cor0);
+    max-width: 600px;
+    min-width: 300px;
+    margin: auto;
+    padding: 100px 30px 15px 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.326);
+}
+
+main h1 {
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    text-align: left;
+    font: var(--font);
+    font-size: 1.5em;
+    padding: 8px;
+    margin: 0px 0px 20px 0px;
+    border-radius: 3px;
+}
+
+.bottom {
+    background-color: var(--cor3);
+    color: white;
+    text-decoration: none;
+    text-align: justify;
+    font-size: 1em;
+    padding: 5px;
+    margin: 0px 0px 80px 200px;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.bottom:hover {
+    background-color: var(--cor1);
+    color: white;
+    transition-duration: 1.5s;
+    opacity: 1;
+}
+
+.details {
+    padding: 35px;
+}
+
+aside h2 {
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    text-align: left;
+    font: var(--font);
+    font-size: 1.5em;
+    padding: 8px;
+    margin: 0px 0px 20px 0px;
+    border-radius: 3px;
+}
+
+.projects li > img {
+    width: 100px;
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.projects ol {
+    columns: 2;
+    padding: 10px;
+}
+
+footer {
+    background-color: var(--cor0);
+    padding: 2px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+   background-color: var(--cor4);
+   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.782);
+   margin: 0px;
+   padding: 0px;
+}
+
+main.h1 {
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor4);
+    margin: -10px -10px 20px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main a {
+    background-color: cornsilk;
+    position: absolute;
+    margin: 430px 0px 0px 12px; 
+    position: bottom;
+} 
+
+ main > nav.sites{
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.17);
+    
+    position: absolute;
+    margin-top: -48px ;
+    width: 3em; 
+    height: 117%;
+    right: 0px;
+}
+
+
+
+main {
+    min-width: 530px;
+    max-width: 1700px;
+    height: 100px;
+    background-color: var(--cor2);
+    margin: auto;
+    padding-top: 50px;
+}
+
+main section {
+    text-align: center;
+    min-width: 300px;
+    max-width: 550px;
+    background-color: var(--cor0);
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.387);
+    padding: 10px;
+}
+
+main ol {
+    text-align: justify;
+    text-align: left;
+    padding: 22px 1px 15px 25px;
+    margin-left: 35px;
+}
+
+main > aside h2 {
+    text-align: justify;
+    margin-left: 5px;
+    padding: 5px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px; 
+    
+}
+
+main > aside ol {
+    margin: auto;
+    columns: 2;
+    margin-left: 15px;
+    padding: 30px 10px 10px 15px;
+    
+}
+
+main > aside img {
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: var(--cor3);
+    color: white;
+    margin-top: 15px;
+    font: italic, 0.1em;
+
+} */
+
+
